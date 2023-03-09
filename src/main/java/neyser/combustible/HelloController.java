@@ -51,6 +51,7 @@ public class HelloController {
         if (comboBox1.getValue().toString().equals(comboBox1.getItems().get(0).toString()))
         {
             comboBox2.setItems(FXCollections.observableArrayList(modelos.toArray()));
+            // test
             selector = 0;
 
             
